@@ -28,8 +28,8 @@ export default function Hello() {
         </span>
       </div>
       <div className="pt-6 flex gap-6 justify-center lg:justify-normal">
-        <Button>Hire me</Button>
-        <Button transpartent>View my portfolio</Button>
+        <Button>HIRE ME</Button>
+        <Button transpartent>VIEW MY PORTFOLIO</Button>
       </div>
     </div>
   );

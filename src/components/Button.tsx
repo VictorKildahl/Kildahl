@@ -17,14 +17,14 @@ export default function Button({
     <div>
       {transpartent ? (
         <a
-          className="transition duration-300 ease-in-out font-bold inline-block rounded hover:border hover:border-[#12486B] px-4 py-3 text-sm text-[#12486B] hover:bg-[#12486B] hover:text-white focus:outline-none focus:ring active:bg-[#419197]"
+          className="transition duration-300 ease-in-out font-bold inline-block rounded hover:border hover:border-[#12486B] px-4 py-3 text-lg text-[#12486B] hover:bg-[#12486B] hover:text-white focus:outline-none focus:ring active:bg-[#419197]"
           href={href}
         >
           {children}
         </a>
       ) : (
         <a
-          className="transition duration-300 ease-in-out inline-block rounded border border-[#12486B] bg-[#12486B] px-12 py-3 text-sm font-bold text-white hover:bg-transparent hover:text-[#12486B] focus:outline-none focus:ring active:text-[#419197]"
+          className="transition duration-300 ease-in-out inline-block rounded border border-[#12486B] bg-[#12486B] px-12 py-3 text-lg font-bold text-white hover:bg-transparent hover:text-[#12486B] focus:outline-none focus:ring active:text-[#419197]"
           href={href}
         >
           {children}
