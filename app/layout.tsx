@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/png" href="../src/assets/memoji2.PNG" />
+        <link rel="icon" type="image/png" href="../src/assets/memojiHi.PNG" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
